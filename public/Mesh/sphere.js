@@ -1,1 +1,0 @@
-function Sphere(radius) {  const geometry = new THREE.SphereGeometry(radius, 24, 24);  const material = new THREE.MeshBasicMaterial({ color: '#FFFD38' });  return new THREE.Mesh(geometry, material);}export default Sphere;

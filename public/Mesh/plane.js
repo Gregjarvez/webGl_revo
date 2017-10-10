@@ -1,1 +1,0 @@
-function Plane(width, height) {  const geometry = new THREE.PlaneGeometry(width, height);  const material = new THREE.MeshPhongMaterial({    color: 'rgb(120, 120, 120)',    side: THREE.DoubleSide  });  const mesh = new THREE.Mesh(geometry, material);  mesh.receiveShadow = true;  return  mesh}export default Plane;

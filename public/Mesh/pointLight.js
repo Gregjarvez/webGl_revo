@@ -1,1 +1,0 @@
-function PointLight(intensity) {  return new THREE.PointLight(0xffffff, intensity);}export default PointLight;
