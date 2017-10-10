@@ -1,0 +1,1 @@
+function Spotlight(intensity){  const light = new THREE.SpotLight('#FFFD38', intensity);  light.castShadow = true;  light.shadow.bias = 0.001;  light.shadow.mapSize.width = 2024;  light.shadow.mapSize.height = 2024;  return light;}export default Spotlight;

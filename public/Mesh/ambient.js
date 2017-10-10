@@ -1,0 +1,1 @@
+function Ambient(intensity) {  return new THREE.AmbientLight('rgba(10, 20, 60)', intensity);}export default Ambient;

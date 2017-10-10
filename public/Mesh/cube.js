@@ -1,0 +1,1 @@
+function Cube(width, height, depth) {  const geometry = new THREE.BoxGeometry(width, height, depth);  const material = new THREE.MeshPhongMaterial({    color: 'rgb(120, 120, 120)'  });  const mesh =  new THREE.Mesh(geometry, material);  mesh.castShadow = true;  return mesh;}export default Cube;
